@@ -29,7 +29,7 @@ class Quote extends Component {
     this.state = {data:[]}
   }
   componentWillMount(){
-      axios.get('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1')
+      axios.get('https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1')
         .then(function (response) {
           var content = response.data[0].content;
           content = content.split("<p>").pop();
