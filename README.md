@@ -3,7 +3,7 @@
 A react app built to pull daily quotes using the Quotes on Design API.
 
 ## Demo
-* [Link](http://daestrada.com/motivation/app)
+* [Link](http://motivation.daestrada.com/)
 
 ## Installing
 
