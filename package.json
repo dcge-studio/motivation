@@ -11,7 +11,6 @@
     "react-fetch": "0.0.9",
     "react-scripts": "1.0.14"
   },
-  "homepage" : "http://daestrada.com/motivation/app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
