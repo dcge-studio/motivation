@@ -25,7 +25,7 @@ Below is what you will need to run the development version of the app:
 
 ## Author
 
-* **DCGE Studio** - [http://dcge.co](http://dcge.co)
+* [**DCGE Studio**](http://dcge.co) - [@dcge-studio](https://github.com/dcge-studio)
 
 ## Contributor
 
