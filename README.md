@@ -1,6 +1,6 @@
 # Motivation App
 
-A react app built to pull daily quotes using the Quotes on Design API. You are also able to share 
+A react app built to pull daily quotes using the Quotes on Design API and ShareThis to share the app. 
 
 ## Demo
 * [Link](http://motivation.dcge.co)
