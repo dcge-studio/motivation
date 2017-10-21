@@ -1,3 +1,8 @@
+/**
+ * @author Daniel Estrada <daniel@dcge.co>
+ * DCGE Studio @dcgestudio
+ */
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -16,23 +21,18 @@ a {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  text-align: center;
-}
-
-#root {
-  padding-top: 30rem;
-
+  position: relative;
+  top: 15rem;
+  line-height: 60px;
 }
 
 .quote {
-  max-width: 400px;
   text-align: center;
+  min-height: 100%; 
+  min-height: 100vh; 
+
+  display: flex;
+  align-items: center;
 }
 
 .mt-1 {
@@ -45,6 +45,6 @@ a {
 
 .container {
   width: auto;
-  max-width: 680px;
+  max-width: 450px;
   padding: 0 15px;
 }

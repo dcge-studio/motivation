@@ -1,21 +1,21 @@
 # Motivation App
 
-A react app built to pull daily quotes using the Quotes on Design API.
+A react app built to pull daily quotes using the Quotes on Design API. You are also able to share 
 
 ## Demo
-* [Link](http://motivation.daestrada.com/)
+* [Link](http://motivation.dcge.co)
 
 ## Installing
 
 Below is what you will need to run the development version of the app:
 
-- Ensure that you have Node.js and npm installed
+- Ensure that you have node.js and npm installed
 
 * Clone the repo
 * run 'npm install' to install all dependcies
 * run 'npm start' for the app to run the development version
 
-* To run the production - run 'npm run-script build'
+* To compile for production - run 'npm run-script build'
 
 
 ## Built With
@@ -23,10 +23,13 @@ Below is what you will need to run the development version of the app:
 * [React.js](http://www.reactjs.com) - Javascript framework
 * [Quotes on Design API](https://quotesondesign.com) - REST API
 
-## Authors
+## Author
+
+* **DCGE Studio** - [@dcgestudio](http://dcge.co)
+
+## Contributor
 
 * **Daniel Estrada** - *Initial work* - [@jrda2](https://github.com/jrda2)
-
 
 ## License
 

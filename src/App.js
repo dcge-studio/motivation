@@ -1,3 +1,8 @@
+/**
+ * @author Daniel Estrada <daniel@dcge.co>
+ * DCGE Studio @dcgestudio
+ */
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -6,22 +11,26 @@ import axios from 'axios'
 class App extends Component {
   render() {
     return (
-      <div>
-      <div className="quote container">
-        <div className="mt-1">
-          <h1>Today's Quote</h1>
+      <div className="container quote">
+        <div className="row justify-content-center">
+          <div className="col mt-1">
+            <h1>Today's Quote</h1> 
+          </div>
+          <Quote />
+        <br />
+        <div className="sharethis-inline-share-buttons"></div>
+        <div className="footer">
+         Motivation App created with React, by <a href="http://www.github.com/dcge-studio">@dcge-studio</a>
         </div>
-        <Quote />
-      </div>
-      <footer className="footer">
-        <div className="container">
-          Motivation App created with React, by <a href="http://www.github.com/jrda2">@jrda2</a>
         </div>
-      </footer>
-      </div>
+
+    </div>
     );
   }
 }
+
+   /* Calls the API and chanes the state with the data provided
+      Using the Quotes on Design API */
 
 class Quote extends Component {
   constructor(props) {
